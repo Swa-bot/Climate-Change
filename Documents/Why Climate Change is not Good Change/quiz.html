@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Climate Change Quiz</title>
+  </head>
+  <body>
+    <form name = "Quiz">
+    <h1>Climate Change Quiz</h1>
+    Full Name: <input type="text" name="fullname" size="15">
+    <h1></h1>
+    <div class="Question">
+      <p class="question">Q1) Which of the following is NOT a green house gas?</p>
+      <input type = "radio" name="Q1" value="Carbon Dioxide">Carbon Dioxide<br>
+      <input type = "radio" name="Q1" value="Methane">Methane<br>
+      <input type = "radio" name="Q1" value="Argon">Argon<br>
+      <input type = "radio" name="Q1" value="Water Vapour">Water Vapour<br>
+      <input type = "radio" name="Q1" value="Nitrous Oxide">Nitrous Oxide<br>
+      </div>
+      <h1></h1>
+      <div class="Question">
+      <p class="question">Q2) Which of the following is NOT increasing climate change?</p>
+      <input type = "radio" name = "Q2" value="Reforestation">Reforestation<br>
+      <input type = "radio" name = "Q2" value="Deforestation">Deforestation<br>
+      <input type = "radio" name = "Q2" value="Hyper Consumerism">Hyper Consumerism<br>
+      <input type = "radio" name = "Q2" value="Livestock Farming">Livestock Farming<br>
+      </div>
+      <h1></h1>
+      <div class="Question">
+      <p class="question">Q3) Anthropogenic activities account for how much percent of the world's GHG emissions?</p>
+      <input type ="number" name='Q3' min = "0" max = "100">
+      </div>
+    <h1></h1>
+    <div class="Question">
+      <p class="question">Q4) What is the name of the gas which disrupts the ozone layer?</p>
+      <input type = "text" name="Q4">
+      </div>
+    
+    <h1></h1>
+    <div class="Question">
+    <p class="question">Alas this quiz is over! Please let me know how it went by rating it out of 5.</p>
+    <input type="number" name="rating" min = 0 max = 5>/5
+    </div>
+  
+    <h1></h1>
+    If you're interested to learn more about climate change, visit these webpages:
+    <ul>
+      <li><a href = "https://www.britannica.com/science/greenhouse-gas">Greenhouse Gases</a></li>
+      <li><a href = "https://climate.nasa.gov/effects/">Global Climate Change: Vital Signs of the Planet</a></li>
+      <li><a href = "https://www.un.org/en/sections/issues-depth/climate-change/">Climate Change (UN)</a></li>
+      <li><a href = "https://www.bbc.com/news/science-environment-24021772">What is climate change? A really simple guide</a></li>
+      <li><a href = "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts">Climate Change Impacts</a></li>
+      <li><a href = "https://www.who.int/heli/risks/climate/climatechange/en/">Climate Change (WHO)</a></li>
+      </ul>
+    <button type="button" onclick="checkAnswers()">Submit</button>
+    <a href=index.html onclick="finishFunction()">Home</a>
+      </form>
+  <script src="script.js"></script>
+  </body>
+</html>

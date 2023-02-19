@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(218, 222, 255) ;
+  color:rgb(18, 38, 58);
+}
+
+.highlight {
+  color:rgb(93, 128, 255);
+}
+
+.Info{
+  font-family:Arial;
+  background-color:rgb(171, 226, 235);
+  border:2px solid rgb(18,38,58);
+  border-radius:4px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+}
+#extraInfo{
+  display:none;
+}
+.question{
+  font-family:Arial;
+  background-color:rgb(171,226,235);
+}
+img{
+  margin:10px;
+  max-width: 75%;
+  height: auto;
+}
+.Question{
+  border:2px dashed rgb(18,38,58);
+  padding:10px;
+}
